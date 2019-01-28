@@ -1,0 +1,250 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "u. c. s. c. buses",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "getStopName",
+                    "slots": [
+                        {
+                            "name": "stopName",
+                            "type": "UCSC_STOPS"
+                        }
+                    ],
+                    "samples": [
+                        "when does the next bus come to {stopName}",
+                        "when's the next bus at {stopName}",
+                        "when's the next bus coming at {stopName}",
+                        "get next bus at {stopName}",
+                        "next bus at {stopName}",
+                        "when does the next buss arrive at {stopName}",
+                        "what is the next bus at {stopName}",
+                        "get bus at {stopName}"
+                    ]
+                },
+                {
+                    "name": "getstop",
+                    "slots": [
+                        {
+                            "name": "stopid",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "next bus at stop number {stopid}",
+                        "what is the next bus at stop number {stopid}",
+                        "when does the next bus arrive at stop number {stopid}",
+                        "get stop number {stopid}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "UCSC_STOPS",
+                    "values": [
+                        {
+                            "id": "2670",
+                            "name": {
+                                "value": "Oakes Other Side",
+                                "synonyms": [
+                                    "the other side of oakes",
+                                    "other side of oakes",
+                                    "Oakes Other"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2671",
+                            "name": {
+                                "value": "Rachel Carsson And Porter Other Side",
+                                "synonyms": [
+                                    "the other side of rachel carsson",
+                                    "other side of rachel carsson",
+                                    "Carsson Other",
+                                    "Rachel Other",
+                                    "Porter Other",
+                                    "Rachel Carsson other"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2673",
+                            "name": {
+                                "value": "Kresge Other Side",
+                                "synonyms": [
+                                    "the other side of kresge",
+                                    "Other side of kresge",
+                                    "Kresge other"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2674",
+                            "name": {
+                                "value": "Science Hill Other Side",
+                                "synonyms": [
+                                    "the other side of science hill",
+                                    "other side of science hill",
+                                    "Science hill other"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2676",
+                            "name": {
+                                "value": "Cowell College Other Side",
+                                "synonyms": [
+                                    "the other side of cowell",
+                                    "other side of cowell",
+                                    "cowell other",
+                                    "cowell other side"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2376",
+                            "name": {
+                                "value": "Bay Dr and High",
+                                "synonyms": [
+                                    "bay drive and high",
+                                    "Bay and High"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1510",
+                            "name": {
+                                "value": "High & Western Dr",
+                                "synonyms": [
+                                    "High and Western",
+                                    "High and Western Dr"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2328",
+                            "name": {
+                                "value": "Arboretum",
+                                "synonyms": [
+                                    "Empire grade"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1505",
+                            "name": {
+                                "value": "Oaks",
+                                "synonyms": [
+                                    "Oak",
+                                    "Oaks smokes",
+                                    "Oaks College"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2516",
+                            "name": {
+                                "value": "Family Student Housing"
+                            }
+                        },
+                        {
+                            "id": "1615",
+                            "name": {
+                                "value": "Science Hill"
+                            }
+                        },
+                        {
+                            "id": "2672",
+                            "name": {
+                                "value": "Kerr Hall"
+                            }
+                        },
+                        {
+                            "id": "1509",
+                            "name": {
+                                "value": "Kresge",
+                                "synonyms": [
+                                    "Kresge College"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2448",
+                            "name": {
+                                "value": "Rachel Carsson and Porter",
+                                "synonyms": [
+                                    "Porter College",
+                                    "Porter",
+                                    "Rachel",
+                                    "Carsson",
+                                    "College eight",
+                                    "College 8"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1616",
+                            "name": {
+                                "value": "College 9 and 10",
+                                "synonyms": [
+                                    "Nine",
+                                    "Ten",
+                                    "10",
+                                    "9",
+                                    "College 10",
+                                    "College 9",
+                                    "College Ten"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "2102",
+                            "name": {
+                                "value": "Cowell and Stevenson",
+                                "synonyms": [
+                                    "Stevenson College",
+                                    "Stevenson",
+                                    "Cowell",
+                                    "Cowell College"
+                                ]
+                            }
+                        },
+                        {
+                            "id": "1617",
+                            "name": {
+                                "value": "Crown and Merril",
+                                "synonyms": [
+                                    "Crown and Merril College",
+                                    "Merril College",
+                                    "Crown College",
+                                    "Merril",
+                                    "Crown"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
